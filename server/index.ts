@@ -1,8 +1,8 @@
 // Local/standalone dev & production entry point (not used on Vercel — see
 // api/index.ts for the serverless entry point there).
 import 'dotenv/config';
-import app from './app';
-import { connectMongo } from './lib/mongo';
+import app from './app.js';
+import { connectMongo } from './lib/mongo.js';
 
 const port = Number(process.env.API_PORT ?? process.env.PORT ?? 3001);
 

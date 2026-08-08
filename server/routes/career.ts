@@ -1,10 +1,10 @@
 import crypto from 'crypto';
 import { Router, type IRouter } from 'express';
 import rateLimit from 'express-rate-limit';
-import { requireAuth, type AuthedRequest } from '../middlewares/requireAuth';
-import { AppUser } from '../models/AppUser';
-import { decrypt } from '../lib/crypto';
-import { generateCareerAnalysisFromSource, type CareerAnswerInput } from '../lib/gemini';
+import { requireAuth, type AuthedRequest } from '../middlewares/requireAuth.js';
+import { AppUser } from '../models/AppUser.js';
+import { decrypt } from '../lib/crypto.js';
+import { generateCareerAnalysisFromSource, type CareerAnswerInput } from '../lib/gemini.js';
 
 const MIN_PROMPT_LENGTH = 20;
 const MAX_PROMPT_LENGTH = 2000;

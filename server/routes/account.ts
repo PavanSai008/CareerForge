@@ -1,7 +1,7 @@
 import { Router, type IRouter } from 'express';
-import { requireAuth, type AuthedRequest } from '../middlewares/requireAuth';
-import { AppUser } from '../models/AppUser';
-import { encrypt } from '../lib/crypto';
+import { requireAuth, type AuthedRequest } from '../middlewares/requireAuth.js';
+import { AppUser } from '../models/AppUser.js';
+import { encrypt } from '../lib/crypto.js';
 
 const router: IRouter = Router();
 
