@@ -1,0 +1,13 @@
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ns-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c6fff" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="36" height="36" rx="10" fill="url(#ns-logo-grad)" />
+  <path
+    d="M19.5 6L10 20.5H16.5L15 30L26 15.5H19L19.5 6Z"
+    fill="white"
+  />
+</svg>
